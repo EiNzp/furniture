@@ -354,12 +354,12 @@ body {
 }
 .production-and-delivery__header {
   margin-top: 160px;
-  color: #151515;
+  color: #9ce9ea;
   font-size: 65px;
   line-height: 115.3846153846%;
   font-weight: 400;
   text-align: center;
-  text-shadow: 0 0 5px white;
+  text-shadow: 0 0 5px rgb(0, 0, 0);
 }
 @media (max-width: 991.98px) {
   .production-and-delivery__header {
@@ -379,14 +379,14 @@ body {
   }
 }
 .production-and-delivery__info {
-  color: #5d5d5d;
+  color: #9ce9ea;
   font-size: 18px;
   line-height: 133.3333333333%;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   letter-spacing: 0.5px;
-  text-shadow: 0 0 20px #5d5d5d;
+  text-shadow: 0 0 20px #000000;
 }
 @media (max-width: 766.98px) {
   .production-and-delivery__info {
@@ -982,6 +982,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
 @media (max-width: 767.98px) {
   .advantages__list {
@@ -1296,6 +1297,12 @@ body {
   -moz-column-gap: 40px;
        column-gap: 40px;
   row-gap: 20px;
+  text-align: center;
+}
+@media (max-width: 374.98px) {
+  .content-footer__list {
+    flex-direction: column;
+  }
 }
 .content-footer__herder {
   font-size: 16px;
@@ -1310,7 +1317,7 @@ body {
 }
 .content-footer__text {
   font-size: 16px;
-  line-height: 125%;
+  line-height: 137.5%;
   font-weight: 400;
 }
 

@@ -1,8 +1,8 @@
 <?php
 // Токен телеграм бота
-$tg_bot_token = "6880527921:AAEn769BL-gyzrAj4pP-iZE9jvE-NhQR4Jw";
+$tg_bot_token = "6755061600:AAGLqSWrxpVWK7-d5d1sY6nCvkl7nfSQljo";
 // ID Чата
-$chat_id = "-4017040646";
+$chat_id = "-4050683217";
 
 $text = '';
 
@@ -10,8 +10,9 @@ foreach ($_POST as $key => $val) {
     $text .= $key . ": " . $val . "\n";
 }
 
-$text .= "\n" . $_SERVER['REMOTE_ADDR'];
-$text .= "\n" . date('d.m.y H:i:s');
+// $text .= "\n" . $_SERVER['REMOTE_ADDR'];
+$text .= "\n" . date('d.m.y');
+// $text .= "\n" . date('d.m.y H:i:s');
 
 $param = [
     "chat_id" => $chat_id,
